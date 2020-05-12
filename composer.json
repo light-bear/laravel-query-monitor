@@ -6,7 +6,8 @@
             "email": "657090156@qq.com"
         }
     ],
-    "require": {
+    "require":{},
+    "autoload": {
         "psr-4": {
             "LightBear\\LaravelQueryMonitor\\": "src/"
         }

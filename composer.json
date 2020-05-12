@@ -1,0 +1,21 @@
+{
+    "name": "light-bear/laravel-query-monitor",
+    "authors": [
+        {
+            "name": "李国玉",
+            "email": "657090156@qq.com"
+        }
+    ],
+    "require": {
+        "psr-4": {
+            "LightBear\\LaravelQueryMonitor\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "LightBear\\RpcClient\\Providers\\ServiceProvider"
+            ]
+        }
+    }
+}

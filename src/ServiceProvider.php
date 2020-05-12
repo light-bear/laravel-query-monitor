@@ -28,7 +28,7 @@ class ServiceProvider extends BaseServiceProvider
 
         $path = realpath(__DIR__ . '/../config.php');
 
-        $this->publishes([$path => config_path('laravel-query-monitor.php')], 'config');
+        $this->publishes([$path => $this->app->configPath('laravel-query-monitor.php')], 'config');
 
         $this->mergeConfigFrom($path, 'laravel-query-monitor');
         /*

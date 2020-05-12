@@ -63,7 +63,7 @@ class ListenQueries
                 call_user_func($this->info, '# Time: ' . $query['time'] / 1000 . ' seconds');
             }
 
-            call_user_func($this->info, PHP_EOL);
+            call_user_func($this->info, '');
 
             socket_close($msgSocket);
 

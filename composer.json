@@ -15,7 +15,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "LightBear\\RpcClient\\Providers\\ServiceProvider"
+                "LightBear\\LaravelQueryMonitor\\ServiceProvider"
             ]
         }
     }
